@@ -1,0 +1,74 @@
+$font-sans: "IBM Plex Sans", "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", Helvetica, sans-serif !default;
+$font-mono: "IBM Plex Mono", monospace !default;
+$font-serif: "IBM Plex Serif", "Georgia", serif !default;
+
+$font-family-default: $font-sans !default;
+
+$font-weight-default: 400 !default;
+$font-weight-bold: 700 !default;
+
+$line-height-default: 1.7 !default;
+$line-height-narrow: 1.2 !default;
+
+$spacing:     2rem !default;
+
+$color-violet: 	#4E40B2;
+$color-yellow: 	#FEAE00;
+$color-green: 	#39C88A;
+$color-red: 		#B7005E;
+$color-blue: 		#1BA3D0;
+
+$color-accent: 			$color-violet;
+$color-black: 			#222222;
+$color-white: 			#ffffff;
+$color-pale-gray: 	#f3f3f3;
+$color-light-gray: 	#dddddd;
+$color-gray: 				#bbbbbb;
+$color-dark-gray: 	#888888;
+
+$color-default:   #222222 !default;
+$color-darker:		#626C76 !default;
+$color-dark:			#D0CFCE !default;
+$color-accent:    #569CE1 !default;
+$color-important:	#D58882 !default;
+$color-mute:      #919AA1 !default;
+$color-invert:		#ffffff !default;
+
+$color-bg-dark:		#2b2f32 !default;
+$color-bg-mute:		#f1f1f1 !default;
+$color-bg-default:#f9f9f9 !default;
+$color-bg-light:	#f6f6f6 !default;
+$color-bg-lighter:#fafafa !default;
+
+$size-smallest:		0.7rem !default;
+$size-smaller:		0.8rem !default;
+$size-small:			0.7rem !default;
+$size-default:		0.8rem !default;
+$size-big:				1.1rem !default;
+$size-bigger:			2.8rem !default;
+
+$spacing-default:	0.01em !default;
+$spacing-wide:		0.02em !default;
+$spacing-wider:		0.05em !default;
+$spacing-widest:	0.10em !default;
+
+$radius-default:	2px !default;
+
+$transition-default: 0.5s !default;
+
+$on-palm:          320px !default;
+$on-laptop:        768px !default;
+$on-desktop:       1224px !default;
+
+$vis-line-main: 	#c3c1cc !default;
+$vis-line-tick:		#e0e0e5 !default;
+$vis-line-end:		#b4b2bf !default;
+$vis-line-accent:	#605e76 !default;
+$vis-marker-default: #00BA9A !default;
+$vis-marker-accent: #E67039 !default;
+
+@mixin media-query($device) {
+  @media screen and (min-width: $device) {
+    @content;
+  }
+}
